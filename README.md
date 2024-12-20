@@ -21,19 +21,20 @@ Installation:
 
 install ollama:
 
-    ```curl -fsSL https://ollama.com/install.sh | sh```
+    curl -fsSL https://ollama.com/install.sh | sh
 
 
 start ollama backend:
 
 Option 1:
-    ```ollama serve```
+
+    ollama serve
 
 Use of option 1 requires keeping the terminal running while ollama is running
 
 Option 2:
 
-    ```sudo systemctl start ollama```
+    sudo systemctl start ollama
 
 This will start ollama in the background so you don't have to keep a terminal window open
 
@@ -41,7 +42,7 @@ install llama 3.2:
 
 in the terminal:
     
-    ```ollama pull llama3.2```
+    ollama pull llama3.2
 
 wait for llama3.2 to install
 
